@@ -23,8 +23,8 @@ If you are a new developer joining the team and want to run this frontend on you
 ### 2. Clone the Repository
 Open your terminal and clone the repository:
 ```bash
-git clone <YOUR_FRONTEND_GITHUB_REPO_URL>
-cd padosi-app
+git clone https://github.com/piyushagarwal635/padosi-frontend.git
+cd padosi-frontend
 ```
 
 ### 3. Install Dependencies
