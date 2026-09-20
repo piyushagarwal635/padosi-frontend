@@ -1,59 +1,50 @@
-# PadosiApp
+# PADOSI - Frontend Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+Welcome to the frontend repository of **PADOSI** - A hyperlocal neighbourhood platform built on the principle of controlled trust.
 
-## Development server
+## 🚀 Technologies Used
+- **Angular 17+** (Standalone Components)
+- **CSS** (Custom Premium Styling)
+- **HTML5**
 
-To start a local development server, run:
+---
 
+## 🛠️ Getting Started for Developers
+
+If you are a new developer joining the team and want to run this frontend on your machine, follow these steps:
+
+### 1. Prerequisites
+- **Node.js**: Ensure you have Node.js installed (v18+ recommended). You can download it from [nodejs.org](https://nodejs.org/).
+- **Angular CLI**: Install the Angular CLI globally if you haven't already:
+  ```bash
+  npm install -g @angular/cli
+  ```
+
+### 2. Clone the Repository
+Open your terminal and clone the repository:
 ```bash
-ng serve
+git clone <YOUR_FRONTEND_GITHUB_REPO_URL>
+cd padosi-app
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+### 3. Install Dependencies
+Install all the required packages to run the project:
 ```bash
-ng generate component component-name
+npm install
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+### 4. Run the Application
+Start the local development server:
 ```bash
-ng generate --help
+npm start
 ```
+*Alternatively, you can use `ng serve`.*
 
-## Building
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🎨 Theme & Structure
+The dashboard uses a custom teal-blue and emerald green theme with a dark slate sidebar for a premium look. All global styles are located in `src/styles.css` and component-specific styles are in `src/app/dashboard/dashboard.css`.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Happy Coding! 🚀
